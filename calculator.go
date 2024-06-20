@@ -20,8 +20,6 @@ func main() {
 
 	a, b, c = extractor(line)
 
-	fmt.Println("a =", a, "b =", b, "c =", c)
-
 	a, system_a = converter(a, system_a) // конвертируем строку в число и проверяем, является оно римским или арабским
 
 	b, system_b = converter(b, system_b) // конвертируем строку в число и проверяем, является оно римским или арабским
